@@ -1,7 +1,7 @@
 use axum::{routing::get, Router};
 
 async fn hello_world() -> &'static str {
-    "Hello, world!"
+    "Hello, world! I've been deployed using Browser!"
 }
 
 #[shuttle_runtime::main]
